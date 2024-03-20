@@ -1,0 +1,17 @@
+Entidades (1:1) One-To-One:
+- Picoles (id, id sabor, preço, id tipo de embalagem);
+- Tipos de Picole(id, nome);
+- Tipos de Embalagem(id, nome);
+- Sabores (id, nome);
+- Ingredientes (id, nome);
+- Aditivos Nutritivos (id, nome, formula quimica);
+- Conservantes (id, nome, descrição);
+- Lotes (id, id do tipo de picole, quantidade);
+- Nota fiscal (id, data, valor, número de série, descrição, id revendedor);
+- Revendedor (id, cnpj, razão social, contato);
+
+Entidades (n:1) Many-To-One:
+- Ingredientes Picole (id, id picole, id Ingrediente);
+- Aditivos Nutritivos Picole (id, id picole, id Aditivos Nutritivos);
+- Conservantes Picole (id, id picole, id Conservantes);
+- Lotes Nota Fiscal (id, id lote, id nota fiscal);
