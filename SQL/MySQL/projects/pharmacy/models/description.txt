@@ -1,0 +1,19 @@
+Sistema de uma Farmacia
+
+Descrição:
+Uma _farmácia_ comercializa vários *tipos de produtos* (remédios, cosméticos, etc.). Além do tipo, para cada _produto_ são
+registrados o *código*, *designação*, *composição*, *fabricante* e *preço de venda*. Quando um _cliente_ compra pela 1o vez um
+produto são registrados os *seus dados* (nome, endereço, telefone, código postal, localidade e número de contribuinte).
+Depois de cadastrado, sempre que um *cliente compra* um determinado produto é registrado seu *código de cliente*, os
+*produtos adquiridos*, o *nome do médico* (no caso das receitas médica), bem como o *total da venda*. Cada compra é
+identificada por um *número* para facilitar as consultas à base de dados.
+
+Entidades:
+Produtos (id, nome, designação, composição, id_fabricante, id_tipo_do_produto, preço de venda);
+Tipo do Produto (id, nome);
+Fabricante (id, nome);
+Clientes (id, nome, cpf, endereço{Rua; complemento; Bairro; Cidade; Estado; Pais}, código postal);
+Compras (id, id do cliente, id_produtos_comprados, id do medico, total da venda(nao precisa criar));
+Produtos comprados (id, id_compra, id_produto, quantidade);
+Receitas medicas (id, prescrição, id_produtos_comprados, id_medico)
+Medicos (id, nome, crm);

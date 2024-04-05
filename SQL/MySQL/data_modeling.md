@@ -1,4 +1,6 @@
 # Detalhes da modelagem de dados
+A modelagem de dados é responsável por desenhar a estrutura de um **Banco de dados**, onde são definidos os fluxos, associações entre tabelas, detalhes e tipos dos campos etc.\
+A modelagem de dados se inicia seguindo uma instrução que descreve em forma de texto ou imagens os processos ou entidades existentes de um sistema, e para executar os processos de modelagem é preciso usar ferramentas específicas como o **MySQL Workbench**.
 
 ### App usados:
 MySQL Workbench 8.0.36 Community

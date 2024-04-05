@@ -1,3 +1,5 @@
+Descrição: Criar uma Base de dados para introduzir informações de uma fábrica de picolé
+
 Entidades (1:1) One-To-One:
 - Picoles (id, id sabor, preço, id tipo de embalagem);
 - Tipos de Picole(id, nome);
