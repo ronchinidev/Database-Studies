@@ -1,0 +1,1 @@
+UPDATE rental_registration set returned_in = NOW() WHERE client_id = 1 
