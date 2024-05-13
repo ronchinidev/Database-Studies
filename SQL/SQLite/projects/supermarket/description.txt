@@ -1,0 +1,7 @@
+Descrição do projeto:
+Criar um sistema simples que auxilie a logistica de um super mercado.
+- Registro de lote de produtos comprados: data de recebimento, numero do lote, quantidade de produtos no lote, fabricante
+- Resgistro de produtos: id do produto, nome, tipo/setor, preço, data validade, data fabricaçao e lote
+- Registro de vendas: id, data da venda, id_registro_cliente(opcional), credencial de funcionario, produtos comprados, quantidade de produtos comprados, valor total, método de pagamento
+- Registro de clientes: id, CPF, nome completo, Tel, endereço
+- Funcionários: id, nome, cargo, cpf, tel, endereço

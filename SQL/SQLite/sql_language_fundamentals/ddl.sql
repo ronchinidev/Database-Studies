@@ -1,0 +1,10 @@
+CREATE DATABASE database_studies IF NOT EXISTS;
+
+CREATE TABLE "products" (
+	"id"	INTEGER NOT NULL,
+	"name"	TEXT NOT NULL,
+	"unit_price"	INTEGER NOT NULL,
+	"stock_id"	INTEGER NOT NULL,
+	"type_id"	INTEGER NOT NULL,
+	PRIMARY KEY("id" AUTOINCREMENT)
+);
