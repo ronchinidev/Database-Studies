@@ -45,3 +45,5 @@ O processo de normalização é sequencial. Isso significa que só pode ser apli
 #### Terceira Forma Normal (3FN) - Uma tabela estará na 3FN se:
 - Estiver na 2FN
 - Nenhum atributo **(não-chave)** deve depender de outro atributo **(não-chave)**
+
+- TESTE
